@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
+  <body>
+
+
+    <header>
+
+      <p style = "font-family: 'Quicksand', sans-serif; font-size: 1.6em;"><span style = "color:#c19059">/*</span>Helene
+        Casanova<span style = "color:#c19059">*/</span></p>
+
+        <div id = "nav-bar" class="nav-section">
+             <ul class = "">
+               <li><a class = "" href="#description" style = "margin-right: 5px;padding-bottom:.3em;">About Me</a></li>
+               <li><a class = "" href="#resume-section" style = "margin-right: 5px;padding-bottom:.3em;">Experience</a></li>
+               <li><a class = "" href="#leadership-section" style = "margin-right: 5px;padding-bottom:.3em;">Leadership</a></li>
+               <li><a class = "" href="#book-section" style = "margin-right: 5px;padding-bottom:.3em;">Book</a></li>
+               <li><a class = "" href="#footer" style = "padding-bottom:.3em;">Contact</a></li>
+               <li><a class = "" href="blog.html" style = "padding-bottom:.3em;">Blog</a></li>
+              <!-- <li><a class = "hvr-underline-from-left" href="https://helenemcasanova.wordpress.com/" target = "0"style = "margin-right: 5px;padding-bottom:.3em;">//Blog</a></li>-->
+             </ul>
+         </div>
+
+    </header>
+
+    <div id = "description">
+
+
+      <img class = "profile-img" src = "images/Main.jpg" />
+
+      <div style = ""class="description-style">
+        <p id = "dec-name" >Helene Casanova</p>
+
+        <p>I am a student, a programming enthusiest, a writer, an innovator and mostly a self-starter. This is my work,
+          programming is my life and writing is my passion (a very time consuming one). Overall, I wanted a place to
+          display what I work so hard on everyday and what I continue to work on, whether it be book I write, the programs
+          I've written or the new hobby I've started. </p>
+          <p>I'm always working on something new. My passion is computer security, cryptography and pen testing.
+          Everyday, I do something to further my knowledge on these subjects through books, online courses, writing
+          the actual programs and testing. I am a true audodidact.</p>
+          <p>I'm am also writing the next book in "The Journals" series set to be comleted by the middle of May 2018. I
+            am also working on a secret project known only as PROJECT: PURPLE and is set to take me a little
+            longer to complete than one of my regular books.</p>
+        </div>
+    </div>
+
+    <section id = "resume-section">
+
+      <h3 class = "title-section">Experience</h3>
+
+      <div class="flex-box">
+        <article class = "left-side raised">
+          <div class = "margins">
+            <div class = "top-box">
+              <h3 class="title-job">SHORELIGHT EDUCATION | JAN 2018 - PRES.</h3>
+              <p class="job-dates">DIGITAL KNOWLEDGE BASE INTERN</p>
+            </div>
+            <p class="job-description">Provide technical support to resolve and close support tickets for the Knowledge
+              base; Collaborate to devise and execute strategy to integrate systems into theKnowledge base; Collate
+              system enhancements requests and issue monthly system updates bulletin.</p>
+            </div>
+        </article>
+
+        <article class="right-side raised">
+            <div class = "top-box">
+            <h3 class="title-job">HARVARD UNIVERSITY | MAY 2017 - AUG 2017</h3>
+            <p class="job-dates">HUIT SUPPORT INTERN</p>
+          </div>
+            <p class="job-description">Software consultation, installation,and configuration, diagnose and resolve computer
+              related problems, provide technical and maintenance support for 30+ computer labsand
+              classrooms.</p>
+
+        </article>
+
+        <article class = "left-side raised">
+
+          <div class = "top-box">
+            <h3 class="title-job">SWEET STUDENT COORDINATOR | SEP 2017 - PRES.</h3>
+            <p class="job-dates">WENTWORTH INSTITUTE OF TECHNOLOGY</p>
+          </div>
+            <p class="job-description">Plans meeting agendas; Coordinate a calendar of SWEET workshops request sand SWEET event
+              /programs; Assist the Coordinator of Wellness Education and the SWEET peers in collecting the materials for
+              each program.</p>
+
+
+        </article>
+
+        <article class="right-side raised">
+          <div class = "top-box">
+            <h3 class="title-job">INFO HUB MANAGER | JANUARY 2017 - PRES.</h3>
+            <p class="job-dates">WENTWORTH INSTITUTE OF TECHNOLOGY</p>
+          </div>
+
+            <p class="job-description">Greet students,staff and prospective families; answer and direct phone calls;
+              Supervise attendants; Help train new staff; Handlework orders, inventory and maintenance.</p>
+
+        </article>
+
+        <article class = "left-side raised">
+          <div class = "top-box">
+            <h3 class="title-job">SWEET PEER EDUCATOR | SEP 2016 - MAY 2017</h3>
+            <p class="job-dates">WENTWORTH INSTITUTE OF TECHNOLOGY</p>
+          </div>
+            <p class="job-description">Design and implement 10 wellness programs throughout the year; Lead 1 hour
+              workshops on health and wellness; Promote health and wellness ideas to the student body.</p>
+
+        </article>
+
+        <article class="right-side raised">
+        <div class = "top-box">
+            <h3 class="title-job">INFO HUB ATTENDANT | SEP 2016 - JAN 2017</h3>
+            <p class="job-dates">WENTWORTH INSTITUTE OF TECHNOLOGY</p>
+          </div>
+            <p class="job-description">Greet students,staff and prospective families; answer and direct phone calls;
+            provide direction and assistance to visitorson a campusof over 4000 studentsand staff.</p>
+
+        </article>
+      </div>
+
+    </section>
+
+
+    <!-- Portfolio Section -->
+
+    <section id="portfolio-section">
+
+      <div class = "title-project">
+        <h3>My Projects</h3>
+      </div>
+
+    <article>
+    	<div class = "project-box-left raised">
+        <h3 class="title">Piano Simulator</h3>
+
+    		<p>This was the final project for my Computer Science II class. This was the largest project of my freshman
+        year and one I am still really proud of. This was written in Java using Javafx.</p>
+        <p class = "links">Click <a href="https://github.com/HeleneMCasanova/PianoSimulator">here</a> to look at this
+          project.</p>
+    	</div>
+    </article>
+
+    <article>
+    	<div class = "project-box-right raised">
+    		<h3 class="title">Enigma Machine</h3>
+
+        <p>This is a basic implementation of an Enigma Machine in Java. You can download the executable or look
+        at the actual source code of the project. This project was created for my Network Programming course.</p>
+        <p class = "links">Click <a href="https://github.com/HeleneMCasanova/Enigma-Machine">here</a> to look at this
+        project.</p>
+    	</div>
+    </article>
+
+    <article>
+    	<div class = "project-box-left raised">
+    		<h3 class="title">Escape: a text based adventure game</h3>
+
+    		<p>This is a little text based game that uses the users previous choices to influence the outcome of
+        the game. This was created for a game jam. </p>
+        <p class = "links">Click <a href="https://github.com/HeleneMCasanova/Escape">here</a> to look at this
+        project.</p>
+    	</div>
+    </article>
+
+  </section>
+
+  <section id ="leadership-section">
+    <h3 class = "title-section">Leadership</h3>
+
+    <div class="flex-box">
+
+      <article style = "background-color: #545e56;color:#fff;" class="left-side raised">
+        <div class = "margins">
+          <h3 class="title-job">WENTWORTH OPENING WEEK | FALL 2016; FALL 2017</h3>
+          <p class="job-dates">PROGRAM ASSISTANT</p>
+          <p class="job-description">Provide exemplary customer service to internal customers; WOW Staff, presenters etc,
+            and external customers; Students and parents; Plan and implement evening activities; Aid in behind
+            the scenes production of WOW.</p>
+            <p class="job-dates">TEAM LEADER</p>
+            <p class="job-description">Created a supportive environment where students learned, grew, and succeeded; Was a
+              mentor and helped students acclimate to college life.</p>
+          </div>
+      </article>
+
+      <article class="right-side raised">
+        <div class = "margins">
+          <h3 class="title-job">NEW STUDENT ORIENTATION (WIT) | SUMMER 2016</h3>
+          <p class="job-dates">ORIENTATION LEADER</p>
+          <p class="job-description">Served as a role model and created an engaging experience for students to learn about
+            transitioning to WIT.</p>
+          </div>
+      </article>
+
+      <article class="left-side raised">
+        <div class = "margins">
+          <h3 class="title-job">WENTWORTH LEADERSHIP INSTITUTE | SPRING 2016; SPRING 2017</h3>
+          <p class="job-dates">PHASE I AND II</p>
+          <p class="job-description">Gained exposure to leadership concepts that encouraged deep, personal learning, fast
+            assimilation of conceptual model sand practical application to use in a future career.</p>
+          </div>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- Book Section -->
+  <section id = "book-section">
+    <h3 class="book-title title-section">"The Journals" Series</h3>
+
+  	<article>
+  		<div class = "left-side-book">
+  			<p>Journal 1: Belle</p>
+        <p>They write journals, it's what their family does. Belin is introduced to a family she never knew she
+          had and finds out the family secret her mother has kept hidden from her for her entire life. She recounts
+          her journey of self-discovery and frustrations as well. Although she is hesitant at first, Belin realizes
+          that keep a journal is a way to honor her families legacy and keep the tradition alive through her. When
+          she realizes who she really is, there is nothing but trouble around every corner and she will fight for her life.</p>
+          <a href = "http://a.co/axWcgQn" style="text-decoration:underline;color:white" target="0"><p><i class="fas fa-book fa-2x"
+            style = "margin-right: 1em;"></i>Paperback</p></a>
+          <a href = "http://a.co/59dVvqR" style="text-decoration:underline;color:white" target="0"><p><i class="fas fa-mobile fa-2x"
+             style = "margin-right: 1em;"></i>Ebook</p></a>
+
+  		</div>
+
+  		<div class = "right-side-book">
+  			<img class = "book-img" src = "images/cover.jpg" />
+  		</div>
+
+  	</article>
+  </section>
+
+  <div id = "footer">
+    <div class = "footer-style footer-style-one">
+      <a href = "https://twitter.com/helene_casanova?lang=en" target = "0"><i class = "footer-style fab fa-twitter fa-2x" style="margin-right:1em;"></i></a>
+      <a href = "https://www.pinterest.com/helenemcasanova/pins/" target = "0"><i class=" footer-style fab fa-pinterest fa-2x"style="margin-right:1em;"></i></a>
+      <a href = "https://www.linkedin.com/in/helenecasanova/" target = "0"><i class="footer-style fab fa-linkedin fa-2x"style="margin-right:1em;"></i></a>
+      <a href = "https://github.com/HeleneMCasanova" target = "0"><i class="footer-style fab fa-github fa-2x"style="margin-right:1em;"></i></a>
+    </div>
+  </div>
+
+
+  </body>
+
+</html>

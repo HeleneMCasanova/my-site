@@ -1,0 +1,6 @@
+name: My Jekyll Website
+title: The Travelling Programmer
+# Build settings
+markdown: kramdown
+url: https://helenemcasanova.github.io/
+baseurl: /helenemcasanova.github.io
