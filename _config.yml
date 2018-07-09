@@ -1,6 +1,6 @@
 name: My Jekyll Website
 title: The Travelling Programmer
-url: https://helenemcasanova.github.io/
+url: http://helenemcasanova.github.io/
 baseurl: /blog/
 kramdown:
   auto_ids: true
