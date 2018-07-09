@@ -1,0 +1,13 @@
+name: My Jekyll Website
+title: The Travelling Programmer
+
+# Build settings
+markdown: kramdown
+url: http://helenemcasanova.github.io/
+baseurl: /blog/
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
