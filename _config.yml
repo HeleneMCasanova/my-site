@@ -9,4 +9,4 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
