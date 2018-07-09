@@ -1,7 +1,7 @@
 name: My Jekyll Website
 title: The Travelling Programmer
 url: https://helenemcasanova.github.io/
-baseurl:/blog
+baseurl: /blog
 kramdown:
   auto_ids: true
   footnote_nr: 1
